@@ -4,6 +4,7 @@ Task 01 - Implement a linear regression model to predict the prices of houses ba
 Given Dataset - https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
 
 The python file named as - task01.py does all the task mentioned below.
+
 To tackle the task of predicting house prices based on square footage, the number of bedrooms, and the number of bathrooms, I followed a systematic approach using a linear regression model. Here’s a step-by-step overview of how I completed this task:
 1. Data Loading: I began by loading the training and test datasets from CSV files using pandas. The datasets contained information on house features and their sale prices.
 2. Feature and Target Definition: I specified the features for the model as square footage (GrLivArea), number of bedrooms (BedroomAbvGr), and number of bathrooms (FullBath). The target variable I aimed to predict was the house sale price (SalePrice).
